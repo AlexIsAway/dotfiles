@@ -17,7 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "number"
-vim.opt.statuscolumn = "%{v:lnum  v:relnum}"
+vim.opt.statuscolumn = "%{v:lnum}: %{v:relnum} "
 
 -- Make sure to setup `mapleader` and `maplocalleader` before
 -- loading lazy.nvim so that mappings are correct.
