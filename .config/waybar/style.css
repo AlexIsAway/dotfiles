@@ -95,6 +95,7 @@ button:hover {
 #submap,
 #idle_inhibitor,
 #scratchpad,
+#power-profiles-daemon,
 #mpd {
   margin: 2px;
   padding-left: 4px;
@@ -123,6 +124,11 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
+  color: #ffffff;
+  background-color: #26A65B;
+}
+
+#power-profiles-daemon.performance, #power-profiles-daemon.balanced, #power-profiles-daemon.power-saver {
   color: #ffffff;
   background-color: #26A65B;
 }
